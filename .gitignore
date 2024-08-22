@@ -1,0 +1,6 @@
+# Build 폴더
+/Debug/
+/Release/
+*.obj
+*.pdb
+.vs/
