@@ -51,12 +51,12 @@ void insertSalesData(SQLHDBC hDbc) {
 void selectSalesData(SQLHDBC hDbc) {
     SQLHSTMT hStmt;
     SQLRETURN retcode;
-    SQLWCHAR sqlQueryW[] = L"SELECT sale_id, product_name, sale_date, amount FROM SALES";
+    SQLWCHAR sqlQueryW[] = L"SELECT sale_id, product_name, TO_CHAR(sale_date, 'YYYY-MM-DD'), amount FROM SALES";
 
     SQLINTEGER saleId = 0;
     SQLWCHAR productName[50] = { 0 };
     SQLDOUBLE amount = 0.0;
-    SQLWCHAR saleDate[20] = { 0 };
+    SQLWCHAR saleDate[30] = { 0 };
 
     retcode = SQLAllocHandle(SQL_HANDLE_STMT, hDbc, &hStmt);
     checkError(retcode, hDbc, SQL_HANDLE_DBC);
@@ -81,6 +81,7 @@ void selectSalesData(SQLHDBC hDbc) {
 
     SQLFreeHandle(SQL_HANDLE_STMT, hStmt);
 }
+
 
 
 

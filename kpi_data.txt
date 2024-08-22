@@ -1,0 +1,6 @@
+1,Sales Increase,12.5,15.0,2024-01-01
+2,Customer Satisfaction,8.7,9.5,2024-01-15
+3,Market Position,22.0,25.0,2024-02-01
+4,Employee Loyalty,90.0,95.0,2024-03-01
+5,Recommendation Score,7.8,8.5,2024-03-15
+6,Cost Efficiency,85.0,90.0,2024-04-01

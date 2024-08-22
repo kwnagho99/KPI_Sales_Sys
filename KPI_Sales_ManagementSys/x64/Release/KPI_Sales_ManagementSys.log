@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\gwangho\source\repos\KPI_Sales_ManagementSys\KPI_Sales_ManagementSys\main.c(196,40): warning C4020: 'filterCustomerAssets': 실제 매개 변수가 너무 많습니다.
+  코드를 생성하고 있습니다.
+  2 of 34 functions ( 5.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  KPI_Sales_ManagementSys.vcxproj -> C:\Users\gwangho\source\repos\KPI_Sales_ManagementSys\x64\Release\KPI_Sales_ManagementSys.exe

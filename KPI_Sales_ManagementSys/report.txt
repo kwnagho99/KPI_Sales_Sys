@@ -1,2 +1,8 @@
-Business Management System Report
-Report generated on: 2024-08-22 ¿ÀÈÄ 7:40:51
+KPI Statistics Report
+
+KPI Statistics:
+Average: 40.83
+Max: 90.00
+Min: 12.50
+
+Report generated successfully.
